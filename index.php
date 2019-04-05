@@ -76,6 +76,22 @@
 ?>
 <?php
 	echo('Exercice5<br/>');
+	if($mavariable!="Homme"){
+    	echo ("C'est une développeuse !!!");
+    }
+    else{
+    	 echo("C'est un développeur !!!");
+	}
 ?>
+<?php
+	echo('Exercice6<br/>');
+	if($$monage>=18){
+    	echo ("Tu es majeur");
+    }
+    else{
+    	 echo("Tu n'es pas majeur!");
+	}
+?>
+
 
 
