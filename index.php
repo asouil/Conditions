@@ -74,18 +74,22 @@
 	}
 
 ?>
-<?php
-	echo('Exercice5<br/>');
+<?php 
+
+	echo('<br/>Exercice5<br/>');
+	$mavariable="Femme";
 	if($mavariable!="Homme"){
-    	echo ("C'est une développeuse !!!");
+    	echo ("C'est une développeuse !!! <br/>");
     }
     else{
-    	 echo("C'est un développeur !!!");
+    	 echo("C'est un développeur !!! <br/>");
 	}
 ?>
+
 <?php
+	$monage = 33;
 	echo('Exercice6<br/>');
-	if($$monage>=18){
+	if($monage>=18){
     	echo ("Tu es majeur");
     }
     else{
@@ -93,5 +97,28 @@
 	}
 ?>
 
+<?php
+	echo('<br/>Exercice7<br/>');
+
+	$maVariable=true;
+ 	if($maVariable==true){
+ 		echo("c'est ok!");
+ 	}
+ 	else{
+    	print("C'est pas bon !!!");
+ 	}
+ 	
+?>
+
+<?php
+	echo('<br/>Exercice8<br/>');
+	if($maVariable){
+		echo ("c'est ok !!");
+	}
+	else{
+		print("c'est pas bon !!!");
+	}
+	
+?>
 
 
